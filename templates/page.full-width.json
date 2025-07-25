@@ -1,0 +1,454 @@
+{
+  "sections": {
+    "background_image_text_Hygyfg": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "BAUCE BROTHERS PRESENTS",
+        "title": "SAUCE AWARDS",
+        "text": "<p>Welcome to the 2024, Sauce Awards keep scrolling to discover the Bauce Brothers picks of the Top 25 hot sauces we tried this year.<\/p>",
+        "button_label": "SUBMIT YOUR SAUCE",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/clubdesktop_7b1847c1-8b04-49e6-a334-dce85d8416db.png",
+        "layout": "left",
+        "height": 450,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "text_with_icons_cgAnKA": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_MTxPnU": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "ENTRIES",
+            "text": "<p>This year, we recieved hundreds of hot sauces, and narrowing them down to just 25 for our judges to sample was no easy task. Each year, we're blown away by the creativity from the makers—whether it's a clever twist on a classic or something entirely new, they never fail to surprise us.<\/p>"
+          }
+        },
+        "text_block_k4ndQX": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "JUDGES",
+            "text": "<p>On Sunday, 13th October, we'll be joined by five special guest judges. Each judge will be tasked with ranking five hot sauces based on three key features that we believe make a standout sauce: heat balance, flavour, and artwork. They'll rate each one from 1 to 5 in these categories.<\/p>"
+          }
+        },
+        "text_block_84jcef": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "WINNERS",
+            "text": "<p>The winners from each category will be featured in a Sauce Awards winners' box on our website, immortalised in hot sauce history with limited edition fact cards. They’ll also secure a lasting place in the hearts of sauce fiends everywhere, with bragging rights to match.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_MTxPnU",
+        "text_block_k4ndQX",
+        "text_block_84jcef"
+      ],
+      "settings": {
+        "title": "AWARDS TIMELINE",
+        "align_text": "left",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#fe5000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "promo_grid_774bbM": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner_VpqGFD": {
+          "type": "banner",
+          "settings": {
+            "heading": "Watch the 2024 Sauce Awards finals below",
+            "text": "",
+            "link": "",
+            "label": "",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "banner_VpqGFD"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
+    "featured_product_gqFx4U": {
+      "type": "featured-product",
+      "blocks": {
+        "price_wjMzKb": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_XRf39K": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_gwULRe": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_NeX7eF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "price_wjMzKb",
+        "description_XRf39K",
+        "variant_picker_gwULRe",
+        "buy_buttons_NeX7eF"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "divider": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_video_6hi8NU": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Best Wild Card",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Dd-pYlty1j4&list=LL&index=1&t=3s",
+        "divider": false
+      }
+    },
+    "featured_product_9JDF4U": {
+      "type": "featured-product",
+      "blocks": {
+        "price_THB9iQ": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_giAtrC": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_aLMPqg": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_th44GP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "price_THB9iQ",
+        "description_giAtrC",
+        "variant_picker_aLMPqg",
+        "buy_buttons_th44GP"
+      ],
+      "settings": {
+        "product": "sriracha-caramel-sauce-by-chimac",
+        "divider": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_video_XDaBXX": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Best Collab",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=MOa67B-k-3E&list=LL&index=1",
+        "divider": false
+      }
+    },
+    "featured_product_aDk3aM": {
+      "type": "featured-product",
+      "blocks": {
+        "price_xzgBkV": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_JgAPgw": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_AUDB6p": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_6LLPUz": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "price_xzgBkV",
+        "description_JgAPgw",
+        "variant_picker_AUDB6p",
+        "buy_buttons_6LLPUz"
+      ],
+      "settings": {
+        "product": "fermented-sriracha-honey-by-easton-chilli-black-bee-honey",
+        "divider": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_video_XepCHe": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Best Caliente",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=NW6FIMB2iVE&list=LL&index=1",
+        "divider": false
+      }
+    },
+    "featured_product_LjQxEc": {
+      "type": "featured-product",
+      "blocks": {
+        "price_dbLyiN": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_jLwhpF": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_ExfCjg": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_gN7Qpm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "price_dbLyiN",
+        "description_jLwhpF",
+        "variant_picker_ExfCjg",
+        "buy_buttons_gN7Qpm"
+      ],
+      "settings": {
+        "product": "carolina-reaper-by-chilli-mafia",
+        "divider": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_video_9Ltm8p": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Best Classico",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=35OG3hb47zA&list=LL&index=1",
+        "divider": false
+      }
+    },
+    "featured_video_JFiiUL": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Best Ferment",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=4Jz0lHocOkQ&list=LL&index=1",
+        "divider": false
+      }
+    },
+    "promo_grid_Beci4R": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner_XQ6tbr": {
+          "type": "banner",
+          "settings": {
+            "heading": "Watch the 2023 results below...",
+            "text": "",
+            "link": "",
+            "label": "",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "banner_XQ6tbr"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
+    "advanced_content_fyAwnX": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_ppPXgL": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Best Caliente<\/h2>\n<p>Window Kid, joined us to judge the 'Best Caliente' category at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/6V8gxbROmMc?si=vjyCGBWuCk_O1fVr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "liquid_ArMGPc": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Best Classico<\/h2>\n<p>Bad Boy Pizza Society, joined us to judge the 'Best Classico' category at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1tfamd9nFqI?si=dGO45_iOFdTBxtlr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "liquid_XmBTey": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Best Collab<\/h2><p>Hannah Crosbie, Found of The Dalston Wine Club juding the 'Best Collab' at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/HZNSlazjhrM?si=DudKOKsJ2aWcU_uR\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_ppPXgL",
+        "liquid_ArMGPc",
+        "liquid_XmBTey"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_jn3WMa": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_7HPKwk": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Best Ferment<\/h2>\n<p>Harry & Will founders of Bloody Drinks joined us to judge the 'Best Ferment' category at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/aq3WXQQMQp0?si=4-JHjpXSAXagYOXF\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "liquid_rdEaKH": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Best Wild Card<\/h2>\n<p>Well Fed Naz, Head Chef at Jumbi Peckham & Moko Tottenham joined us to judge the 'Best Wild Card' category at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/z1Ha3CNxG7g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "liquid_YJxgk9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>People's champ<\/h2><p>Ben & Jess, Founders of Bauce Brothers judging the 'People's Champ' category at the 2023 Sauce Awards.<\/p>\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/FCnZeUUZ6tc?si=S8vkslCfkisIVLrw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_7HPKwk",
+        "liquid_rdEaKH",
+        "liquid_YJxgk9"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main": {
+      "type": "main-page-full-width",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "background_image_text_Hygyfg",
+    "text_with_icons_cgAnKA",
+    "promo_grid_774bbM",
+    "featured_product_gqFx4U",
+    "featured_video_6hi8NU",
+    "featured_product_9JDF4U",
+    "featured_video_XDaBXX",
+    "featured_product_aDk3aM",
+    "featured_video_XepCHe",
+    "featured_product_LjQxEc",
+    "featured_video_9Ltm8p",
+    "featured_video_JFiiUL",
+    "promo_grid_Beci4R",
+    "advanced_content_fyAwnX",
+    "advanced_content_jn3WMa",
+    "main"
+  ]
+}

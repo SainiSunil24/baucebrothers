@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_Mkykwh": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 15,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "#1c1c1c",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "title_qWN6AF": {
+          "type": "title",
+          "settings": { "vendor_enable": false, "sku_enable": false }
+        },
+        "price": { "type": "price", "settings": {} },
+        "e790a440-e8ca-4971-94b0-af6223886ca9": {
+          "type": "description",
+          "settings": { "is_tab": false }
+        },
+        "quantity_selector_K9W7it": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_Mkykwh",
+        "title_qWN6AF",
+        "price",
+        "e790a440-e8ca-4971-94b0-af6223886ca9",
+        "quantity_selector_K9W7it",
+        "buy_buttons"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "natural",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": { "products_per_row": 3, "max_products": 5 }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": { "products_per_row": 3, "max_products": 5 }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": { "color_scheme": "2" }
+    },
+    "sub": { "type": "product-full-width", "settings": { "max_width": true } }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "sub"
+  ]
+}

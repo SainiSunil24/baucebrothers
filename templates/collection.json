@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "rich_text_jVJmJK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_93APTQ": {
+          "type": "heading",
+          "settings": {
+            "title": "International sauces",
+            "heading_size": "h2"
+          }
+        },
+        "text_zwXwWY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Discover some of our favourite all-American hot sauce all stars. Some of these heavy hitters have even featured on the award winning show 'Hot Ones', tasted and enjoyed by celebrities from the <em>Hot Ones<\/em> Buffalo sauce to Los Calientes to The Last Dab.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_93APTQ",
+        "text_zwXwWY"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "8d3da46f-4dca-4582-b6d9-35e9ff6f72d0": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "8d3da46f-4dca-4582-b6d9-35e9ff6f72d0"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "rich_text_jVJmJK",
+    "collection-header",
+    "main-collection",
+    "recently-viewed"
+  ]
+}

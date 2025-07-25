@@ -1,0 +1,21 @@
+{% if collection.metafields.custom.bottom_description != blank %}
+<div class="page-width">
+  <section class="collection-bottom-section">
+      {{  collection.metafields.custom.bottom_description }}
+  </section>
+</div>
+{% endif %}
+{% schema %}
+  {
+    "name": "Bottom Description",
+    "settings": [],
+    "presets":[
+      {
+        "name":"Bottom Description"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}

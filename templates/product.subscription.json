@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_Mkykwh": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 15,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "#1c1c1c",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "title_qWN6AF": {
+          "type": "title",
+          "settings": { "vendor_enable": false, "sku_enable": false }
+        },
+        "text_yX9yQM": {
+          "type": "text",
+          "settings": {
+            "text": "Discover the UK's best small-batch hot sauce makers, and get up to four handmade hot sauces delivered right to your door."
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": false,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "recharge_subscriptions_subscription_widget_v2_9nwVwq": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        },
+        "buy_buttons_knWgcA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "e790a440-e8ca-4971-94b0-af6223886ca9": {
+          "type": "description",
+          "settings": { "is_tab": false }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_Mkykwh",
+        "title_qWN6AF",
+        "text_yX9yQM",
+        "variant_picker",
+        "recharge_subscriptions_subscription_widget_v2_9nwVwq",
+        "buy_buttons_knWgcA",
+        "e790a440-e8ca-4971-94b0-af6223886ca9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "portrait",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_height": "fixed",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": { "products_per_row": 3, "max_products": 5 }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": { "products_per_row": 3, "max_products": 5 }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": { "color_scheme": "2" }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "17482596290fda9dad": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_7y3kex": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": ["loox_reviews_loox_dynamic_section_7y3kex"],
+      "settings": { "full_width": false, "space_around": true }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "sub",
+    "17482596290fda9dad"
+  ]
+}

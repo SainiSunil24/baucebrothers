@@ -1,0 +1,52 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "toolbar": {
+      "type": "toolbar",
+      "blocks": {
+        "announcement_GExBaE": {
+          "type": "announcement",
+          "settings": {
+            "richtext": "<p>Free shipping when you spend over £70</p>",
+            "richtext_mobile": "<p>Free shipping when you spend over £70</p>"
+          }
+        }
+      },
+      "block_order": ["announcement_GExBaE"],
+      "settings": {
+        "announcement_center": false,
+        "toolbar_social": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "4e12cc81-e456-4306-b927-4758506e00ed": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Untitled_design_1.svg",
+            "logo-inverted": "shopify://shop_images/Untitled_design_1.svg",
+            "desktop_logo_width": 100,
+            "mobile_logo_width": 60
+          }
+        }
+      },
+      "block_order": ["4e12cc81-e456-4306-b927-4758506e00ed"],
+      "settings": {
+        "main_menu_link_list": "main-menu",
+        "hover_menu": true,
+        "main_menu_alignment": "below",
+        "mega_products": false,
+        "header_sticky": true,
+        "header_footer_menu": true,
+        "sticky_index": false,
+        "sticky_collection": false
+      }
+    }
+  },
+  "order": ["toolbar", "header"]
+}

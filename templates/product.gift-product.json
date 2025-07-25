@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_qWN6AF": {
+          "type": "title",
+          "settings": {
+            "vendor_enable": false,
+            "sku_enable": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "loox_reviews_loox_rating_Mkykwh": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 15,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "#1c1c1c",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
+        "recharge_subscriptions_gifting_widget_aPmXWr": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/gifting-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "rc_show_sender_name": true,
+            "rc_show_send_date": true,
+            "rc_gift_months_max": 24,
+            "rc_disable_add_to_cart": true,
+            "rc_gift_recipient_block_title": "Recipient information",
+            "rc_gift_sender_name_text_input": "Sender name",
+            "rc_gift_recipient_firstname_text_input": "First name",
+            "rc_gift_recipient_lastname_text_input": "Last name",
+            "rc_gift_recipient_email_text_input": "Email",
+            "rc_gift_message_text_input": "Message",
+            "rc_gift_send_date_text_input": "When should we tell the recipient about their gift?",
+            "rc_gift_name_wrapper": "{property_name}",
+            "rc_gift_form_wrapper": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "quantity_selector_K9W7it": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "e790a440-e8ca-4971-94b0-af6223886ca9": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title_qWN6AF",
+        "price",
+        "loox_reviews_loox_rating_Mkykwh",
+        "recharge_subscriptions_gifting_widget_aPmXWr",
+        "variant_picker",
+        "quantity_selector_K9W7it",
+        "e790a440-e8ca-4971-94b0-af6223886ca9",
+        "buy_buttons"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "natural",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "settings": {
+        "max_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "sub"
+  ]
+}

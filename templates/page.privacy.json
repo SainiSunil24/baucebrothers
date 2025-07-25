@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "c130f919-20bf-4c24-841f-00d1870bc3e8": {
+      "type": "slideshow-split",
+      "blocks": {
+        "template--16787218399458__c130f919-20bf-4c24-841f-00d1870bc3e8-slide-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Tell all the homies.",
+            "title": "Give 25% off, Get 25% off,",
+            "title_size": 40,
+            "subheading": "Refer a friend and get 25% off your next order, plus your friend will get the same!",
+            "link": "https:\/\/baucebrothers.com\/pages\/refer-a-friend?#raf",
+            "link_text": "REFER A FRIEND",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/4_184ee53d-fad1-4e30-a8ef-ebcfde7a569f.png",
+            "indent_image": true,
+            "color_scheme": "3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787218399458__c130f919-20bf-4c24-841f-00d1870bc3e8-slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "cf376c6e-af51-4383-9acc-3091168b4c0d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16787218399458__cf376c6e-af51-4383-9acc-3091168b4c0d-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>*This offer is only valid for <\/strong><a href=\"https:\/\/baucebrothers.com\/products\/hot-box-hot-sauce-subscription-box\" title=\"https:\/\/baucebrothers.com\/products\/hot-box-hot-sauce-subscription-box\"><strong>Hot Box Club<\/strong><\/a><strong> members only.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787218399458__cf376c6e-af51-4383-9acc-3091168b4c0d-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "11522ce1-66fa-4c79-9614-362216df49a2": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "envelope",
+            "title": "Share your code",
+            "text": "<p>Share your code with friends, you can copy a direct link, share on socials or forward an email.<\/p>"
+          }
+        },
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "wallet",
+            "title": "Get 25% off",
+            "text": "<p>When your friend signs up they get 25% off their first box, when they join the<strong> <\/strong><a href=\"https:\/\/baucebrothers.com\/products\/hot-box-hot-sauce-subscription-box\" title=\"https:\/\/baucebrothers.com\/products\/hot-box-hot-sauce-subscription-box\"><strong>Hot Box Club<\/strong><\/a> and so do you.<\/p>"
+          }
+        },
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "Reload and repeat",
+            "text": "<p>Kick back, celebrate, reload and repeat, for each friend you refer you get an additional 25%.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-1",
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-2",
+        "template--16787218399458__11522ce1-66fa-4c79-9614-362216df49a2-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#fe5000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "b8d6df7c-b7e4-4f93-a814-53a54d03a5f7": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16787218399458__b8d6df7c-b7e4-4f93-a814-53a54d03a5f7-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div id=\"raf\" class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"440216\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787218399458__b8d6df7c-b7e4-4f93-a814-53a54d03a5f7-liquid-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c130f919-20bf-4c24-841f-00d1870bc3e8",
+    "cf376c6e-af51-4383-9acc-3091168b4c0d",
+    "11522ce1-66fa-4c79-9614-362216df49a2",
+    "b8d6df7c-b7e4-4f93-a814-53a54d03a5f7"
+  ]
+}

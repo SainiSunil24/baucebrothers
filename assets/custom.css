@@ -1,0 +1,191 @@
+/* BOTTOM LONG DESCRIPTION */
+.collection-header__description.mt-3 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.collection-full-text {
+    text-align: center;
+    padding: 20px 0;
+}
+.collection-full-text.full-wrapper-border {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 40px 30px;
+}
+.collection-inner-box {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 40px 30px;
+    text-align: center;
+}
+.collection-wrapper-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 35px 0;
+}
+.collection-full-text {
+    text-align: center;
+    margin: 0 0 35px;
+}
+.collection-inner-box ul, .collection-full-text.full-wrapper-border ul, .collection-full-text ul {
+    text-align: left;
+    padding: 0 0 0 16px;
+}
+.collection-section-container {
+    margin: 0 0 80px;
+}
+.collection-full-text h2, .collection-full-text h1 {
+    font-size: 30px;
+    margin: 0;
+}
+.collection-full-text h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 8px;
+}
+
+.collection-full-text.full-wrapper-border h2, .collection-inner-box h2, .collection-inner-box h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 8px;
+}
+/*  TABS */
+.bottom-faq-tabs .faqtabs {
+    overflow: hidden;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.bottom-faq-tabs .faqtab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 12px;
+    background: transparent;
+    padding: 5px 0;
+}
+.bottom-faq-tabs .faqinput {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.bottom-faq-tabs .faqtab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+}
+.bottom-faq-tabs .faqtab-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+    color: #000;
+}
+.bottom-faq-tabs .faqtab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2c3e50;
+    background: transparent;
+    transition: all 0.35s;
+    visibility: hidden;
+    font-size: 14px;
+    line-height: 22px;
+}
+.bottom-faq-tabs .faqinput:checked + .faqtab-label::after {
+    transform: rotate(90deg);
+}
+.bottom-faq-tabs .faqinput:checked + .faqtab-label {
+    background: transparent;
+}
+.bottom-faq-tabs .faqinput:checked ~ .faqtab-content {
+    max-height: 100vh;
+    padding: 0 1em 1em;
+    visibility: visible;
+}
+.faqtab .faqtab-label h2 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: initial;
+    color: #000;
+}
+.bottom-faq-tabs {
+    background: #fcfce9;
+    padding: 4rem 0;
+}
+.bottom-faq-tabs h2.faqmain-heading {
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 32px;
+}
+.collection-full-text h2 {
+    margin: 0 0 8px;
+}
+.collection-inner-box li {
+    list-style: disc;
+}
+.faqtabs .faqtab-label h2 {
+    margin: 0;
+}
+.collection-full-text a, .collection-inner-box a{
+  text-decoration:underline;
+}
+.faqtab-content ul{
+  list-style: disc;
+}
+.faqtab-content a{
+  text-decoration: underline;
+}
+/*** MEDIA ***/
+@media only screen and (max-width: 1199px) {
+.collection-full-text.full-wrapper-border {
+    padding: 30px 20px;
+}    
+.collection-inner-box {
+    padding: 30px 20px;
+}
+}
+@media only screen and (max-width: 991px) {
+.collection-full-text.full-wrapper-border h2, .collection-inner-box h2, .collection-inner-box h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.collection-full-text h2 {
+    font-size: 26px;
+    line-height: 32px;
+}
+  .collection-full-text h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+}
+@media only screen and (max-width: 767px) {
+.collection-wrapper-box {
+    grid-template-columns: repeat(1,1fr);
+}  
+.collection-section-container {
+    margin: 0 0 65px;
+}  
+.bottom-faq-tabs h2.faqmain-heading {
+    margin: 0 0 25px;
+    font-size: 24px;
+}
+.bottom-faq-tabs {
+    padding: 3rem 0;
+}
+}
+@media only screen and (max-width: 479px) {
+.collection-full-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.collection-full-text.full-wrapper-border, .collection-inner-box {
+    padding: 30px 15px;
+}    
+}

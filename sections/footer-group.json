@@ -1,0 +1,61 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "disabled": true,
+      "settings": {
+        "hide_homepage": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "menu": "footer",
+            "enable_account_link": true
+          }
+        },
+        "fe6a67a0-686e-435b-a946-f28802053c97": {
+          "type": "contact",
+          "settings": {
+            "phone": "",
+            "contact": "contact",
+            "chat": "",
+            "enable_social": true
+          }
+        },
+        "c296bc3e-1d7f-4750-b993-050176521596": {
+          "type": "payment",
+          "settings": {
+            "show_payment_icons": true,
+            "show_locale_selector": true,
+            "show_currency_selector": true,
+            "show_currency_flags": true
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "fe6a67a0-686e-435b-a946-f28802053c97",
+        "c296bc3e-1d7f-4750-b993-050176521596"
+      ],
+      "settings": {
+        "show_newsletter": true,
+        "newsletter_richtext": "<p>Join our mailing list for awesome memes<\/p>",
+        "footer_main_menu": true,
+        "show_copyright": true,
+        "copyright_text": "The UK's Best Hot Sauce Shop",
+        "policies_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

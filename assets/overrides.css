@@ -1,0 +1,39 @@
+.type-banner {
+  flex: 1 0 100%;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: var(--type-base-size);
+}
+
+.grid-product img {
+  border-radius: 12px;
+}
+
+.variant-button-wrap {
+  display: flex; /* Use flexbox for layout */
+  gap: 10px; /* Add spacing between buttons */
+  justify-content: space-between; /* Distribute buttons evenly */
+}
+
+.variant__button-label {
+  flex: 1; /* Make each label take up equal space */
+  text-align: center; /* Center the text inside the label */
+  padding: 10px; /* Add padding for better appearance */
+  background-color: #f0f0f0; /* Default background color */
+  color: black; /* Default text color */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+  max-height: 35px;
+}
+
+.variant__button-label:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="radio"]:checked + .variant__button-label {
+  background-color: #fe5000; /* Highlight the selected button */
+  color: white;
+}

@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "38e3924c-b9e0-4767-a96d-16ee5c4aafde": {
+          "type": "collection",
+          "settings": {
+            "collection": "hot-sauce"
+          }
+        },
+        "f0756f9c-29d2-4ac0-a1e5-6492f03d79e4": {
+          "type": "collection",
+          "settings": {
+            "collection": "hot-sauce-club-memberships"
+          }
+        },
+        "e91673f2-fb86-41ab-a694-a6d7be2d6c3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "hot-sauce-gift-section"
+          }
+        }
+      },
+      "block_order": [
+        "38e3924c-b9e0-4767-a96d-16ee5c4aafde",
+        "f0756f9c-29d2-4ac0-a1e5-6492f03d79e4",
+        "e91673f2-fb86-41ab-a694-a6d7be2d6c3d"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "all",
+        "sort": "alphabetical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
