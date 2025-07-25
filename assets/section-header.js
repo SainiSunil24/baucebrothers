@@ -17,7 +17,7 @@ class HeaderSection extends HTMLElement {
     this.handleMediaQueryChange = this.handleMediaQueryChange.bind(this)
     this.mobileMediaQuery.addListener(this.handleMediaQueryChange)
     this.handleMediaQueryChange(this.mobileMediaQuery)
-
+    
     // Cart class toggle
     document.addEventListener(
       EVENTS.headerDrawerOpened,

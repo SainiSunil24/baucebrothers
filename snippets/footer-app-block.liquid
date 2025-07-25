@@ -1,0 +1,71 @@
+{{ shop.metafields.loox["global_html_body"] | replace: 'async src="https', 'type="load" d-src="https' }}
+{{ shop.metafields.loox["global_html_head"] }}
+<script>
+    var site_nav_link_burger = true;
+    var site_nav_link_search = true;
+    var site_nav_link_cart = true;
+    var site_atc = true;
+    document.addEventListener("DOMContentLoaded", function() {
+        var icon_menu = document.querySelector('.mobile-nav-trigger');
+        var icon_search = document.querySelector('[href="/search"]');
+        var icon_cart = document.querySelector('[href="/cart"]');
+        var icon_atc = document.querySelector('.add-to-cart');
+        if(icon_menu){
+          icon_menu.addEventListener("click", function() {
+              if(site_nav_link_burger && !document.documentElement.classList.contains('scld')) {
+                  event.preventDefault();
+                  site_nav_link_burger = false;
+              }
+          });
+        }
+        if(icon_search){
+          icon_search.addEventListener("click", function() {
+              if(site_nav_link_search && !document.documentElement.classList.contains('scld')) {
+                  event.preventDefault();
+                  site_nav_link_search = false;
+              }
+          });
+        }
+        if(icon_cart){
+          icon_cart.addEventListener("click", function() {
+              if(site_nav_link_cart && !document.documentElement.classList.contains('scld')) {
+                  event.preventDefault();
+                  site_nav_link_cart = false;
+              }
+          });
+        }
+        if(icon_atc){
+          icon_atc.addEventListener("click", function() {
+              if(site_atc && !document.documentElement.classList.contains('scld')) {
+                  event.preventDefault();
+                  site_atc = false;
+              }
+          });
+        }
+    }) 
+</script>
+<script>
+document.addEventListener('headerDrawer:opened', (event) => {
+  event.target.getAttribute("open") === "cart:open" && document.querySelector('header-section').classList.add("cart-open")
+});
+document.addEventListener('headerDrawer:closed', (event) => {
+  event.target.getAttribute("close") === "cart:close" && document.querySelector('header-section').classList.remove("cart-open")
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const startinterval = setInterval(() => {
+        if (!document.documentElement.classList.contains("xh") && document.documentElement.classList.contains("mainopt")) {
+            const mouseMoveEvent = new MouseEvent('mousemove', {
+                bubbles: true,
+                cancelable: true,
+                clientX: 100,
+                clientY: 150
+            });
+            document.dispatchEvent(mouseMoveEvent);
+        } else {
+            clearInterval(startinterval);
+            console.log("stoped")
+        }
+    }, 100);
+});
+</script>

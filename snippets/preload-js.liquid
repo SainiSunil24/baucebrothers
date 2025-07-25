@@ -3,7 +3,7 @@
   Preloads javascript modules from the importmap
 {% endcomment %}
 
-<script type="module">
+<script type="load" dxt="module">
   try {
     const importMap = document.querySelector('script[type="importmap"]')
     const importMapJson = JSON.parse(importMap.textContent)

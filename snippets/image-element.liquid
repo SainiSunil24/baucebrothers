@@ -94,6 +94,41 @@
 %}
 
 <is-land on:visible data-image-type="{{ type }}">
+  {% if loading == 'eager' %}
+     {%- liquid
+    # Default scenario for images
+    if type == blank
+      if widths != blank
+        if img_width == blank
+          assign img_width = widths | split: ',' | last | strip
+        endif
+        if img_tag_width == blank
+          assign img_tag_width = img_width | strip
+        endif
+        if img_tag_height == blank
+          assign img_tag_height = img_tag_width | divided_by: img.aspect_ratio
+        endif
+        assign img = img | image_url: width: img_width, format: format | image_tag:  height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, widths: widths, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation 
+      endif
+
+      if widths == blank
+        if img_width == blank
+          assign img_width = img.width | times: 2 | round
+        endif
+        if img_tag_width == blank
+          assign img_tag_width = img_width | strip
+        endif
+        if img_tag_height == blank
+          assign img_tag_height = img_tag_width | divided_by: img.aspect_ratio
+        endif
+        assign img = img | image_url: width: img_width, format: format | image_tag:  height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation
+      endif
+
+      echo img
+    endif
+  -%}
+  {% else %}
+ {% capture lazyloadimage %}
   {%- liquid
     # Default scenario for images
     if type == blank
@@ -107,7 +142,7 @@
         if img_tag_height == blank
           assign img_tag_height = img_tag_width | divided_by: img.aspect_ratio
         endif
-        assign img = img | image_url: width: img_width, format: format | image_tag: preload: preload, height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, widths: widths, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation
+        assign img = img | image_url: width: img_width, format: format | image_tag:  height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, widths: widths, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation 
       endif
 
       if widths == blank
@@ -120,12 +155,14 @@
         if img_tag_height == blank
           assign img_tag_height = img_tag_width | divided_by: img.aspect_ratio
         endif
-        assign img = img | image_url: width: img_width, format: format | image_tag: preload: preload, height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation
+        assign img = img | image_url: width: img_width, format: format | image_tag:  height: img_tag_height, width: img_tag_width, class: classes, loading: loading, alt: alt, sizes: sizes, itemprop: itemprop, role: role, aria-hidden: ariaHidden, style: style, data-animate: animation
       endif
 
       echo img
     endif
   -%}
+{% endcapture %}{{ lazyloadimage | replace: ' src="' , ' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="' | replace: ' srcset="' , ' dt="'  }}
+  {% endif %}
 
   {% comment %} Hosted images {% endcomment %}
   {% if type != blank and type != 'photoswipe' %}
@@ -190,7 +227,7 @@
         data-index: loopIndex,
         sizes: sizes,
         widths: widths,
-        preload: preload,
+        
         data-animate: animation
     }}
   {% endif %}
